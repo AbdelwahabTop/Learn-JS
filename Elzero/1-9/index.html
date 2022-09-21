@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Learn JavaScript</title>
+    <script>
+      // Code One:It will Not Work because it befor the Element
+        // document.getElementById("el").style.color = "red";
+    </script>
+    <script>
+      // Code Two: the code will work after loading page and the element will be exist
+        window.onload = function () {
+        document.getElementById("el").style.color = "red";
+};
+    </script>
+</head>
+<body>
+    <h1 id="el">Page Title</h1>
+    <script>
+      // Code Three: best practice
+        document.getElementById("el").style.color = "red";
+    </script>
+    <script src="main.js"></script>
+</body>
+</html>
