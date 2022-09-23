@@ -1,0 +1,20 @@
+.pop {
+    padding: 20px;
+    text-align: center;
+    background-color: #eee;
+    width: 250px;
+    position: relative;
+    margin: 50px auto;
+}
+
+h3 {
+    margin: 0 0 15px;
+}
+
+i {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 96%;
+    top: -7%;
+}
