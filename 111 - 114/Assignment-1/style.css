@@ -1,0 +1,48 @@
+/*
+font-family: 'Cairo', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+body {
+    /* position: relative; */
+    text-align: center;
+    margin: 70px 0 70px;
+    background-image:url(./wallpaperflare.com_wallpaper\ \(2\).jpg);
+    background-size: cover;
+    font-family: var(--font-family-s);
+}
+
+.adj {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 150%;
+    position: absolute;
+    z-index: -1;
+    top: -50px;
+}
+
+select {
+    margin-left: 30px;
+    width: 280px;
+    height: 80px;
+
+    background-color: rgb(255, 167, 182);
+    border-radius: 20px;
+    padding: 5px 10px 5px 10px;
+    color: white;
+    border: none;
+    font-size: x-large;
+    font-family: 'Cairo', sans-serif;
+}
+
+.exp {
+    border: #ccc solid 1.5px;
+    border-radius: 20px;
+    padding: 40px 20px;
+    width: 600px;
+    margin: 60px auto;
+    color: white;
+    line-height: 3;
+    background-color: var(--color-s);
+    font-size: var(--font-size-s);
+}
