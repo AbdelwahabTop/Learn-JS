@@ -1,0 +1,11 @@
+let a = "Elzero Web School"
+
+console.log(`${a.charAt(2).toUpperCase()}${a.slice(3, 6)}`)
+
+console.log(a[a.length-4].toUpperCase().repeat(8))
+
+console.log(a.split(" ", 1))
+
+console.log(`${a.substr(0, 6)} ${a.substr(-6, 7)}`)
+
+console.log(`${a.slice(0, 2).toLowerCase()}${a.slice(2, a.length - 1).toUpperCase()}${a.slice(a.length - 1).toLowerCase()}`)
